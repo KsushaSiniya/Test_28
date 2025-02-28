@@ -7,7 +7,7 @@ body, html
 	overflow: hidden;
 	font-size: 16px;
 	font-family: helvetica, arial;
-	background: #f9f9f9;
+	background: #ccf4f1;
 	color: #111;
 }
 
@@ -65,7 +65,7 @@ body, html
 {
 	border: 0;
 	border-radius: 10px;
-	background: #6477EB;
+	background: #e52b50;
 	color: #fff;
 	padding: 10px 25px;
 	width: 70%;
