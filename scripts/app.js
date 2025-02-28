@@ -187,6 +187,38 @@ const questions =
 		new Answer("465", 0),
 		new Answer("456", 1),
 		new Answer("100", 0)
+	]),
+
+    new Question("В каком году вышел 1 сезон?", 
+	[
+		new Answer("2020", 0),
+		new Answer("2021", 1),
+		new Answer("2012", 0),
+		new Answer("2022", 0)
+	]),
+
+    new Question("Имя какого персонажа Чхе Су Бонг взял в качестве псевдонима?", 
+	[
+		new Answer("Танос", 1),
+		new Answer("Железный человек", 0),
+		new Answer("Человек паук", 0),
+		new Answer("Капитан америка", 0)
+	]),
+
+    new Question("Сколько серий в 1 сезоне?", 
+	[
+		new Answer("7", 0),
+		new Answer("8", 0),
+		new Answer("9", 1),
+		new Answer("10", 0)
+	]),
+
+    new Question("На какой платформе можно посмотреть сериал?", 
+	[
+		new Answer("Flexix", 0),
+		new Answer("Госуслуги", 0),
+		new Answer("Disney+", 0),
+		new Answer("Netflix", 1)
 	])
 ];
 
