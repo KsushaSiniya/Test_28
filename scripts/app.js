@@ -132,61 +132,61 @@ class Result
 //Массив с результатами
 const results = 
 [
-	new Result("Вам многому нужно научиться", 0),
-	new Result("Вы уже неплохо разбираетесь", 2),
-	new Result("Ваш уровень выше среднего", 4),
-	new Result("Вы в совершенстве знаете тему", 6)
+	new Result("Вам стоит пересмотреть сериал", 0),
+	new Result("Вы неплохо знаете сериал", 2),
+	new Result("Вы хорошо знаете сериал", 4),
+	new Result("Вы настоящий фанат", 6)
 ];
 
 //Массив с вопросами
 const questions = 
 [
-	new Question("2 + 2 = ", 
+	new Question("Как зовут главного героя?", 
 	[
-		new Answer("2", 0),
-		new Answer("3", 0),
-		new Answer("4", 1),
-		new Answer("0", 0)
+		new Answer("Танос", 0),
+		new Answer("Хван Ин Хо", 0),
+		new Answer("Сон Ки Хун", 1),
+		new Answer("Чо Ю-ри", 0)
 	]),
 
-	new Question("2 * 2 = ", 
+	new Question("Какая форма сахарной соты самая сложная?", 
 	[
-		new Answer("2", 0),
-		new Answer("3", 0),
-		new Answer("4", 1),
-		new Answer("0", 0)
+		new Answer("Круг", 0),
+		new Answer("Треугольник", 0),
+		new Answer("Звезда", 0),
+		new Answer("Зонтик", 1)
 	]),
 
-	new Question("2 / 2 = ", 
+	new Question("Как называлась первая игра?", 
 	[
-		new Answer("0", 0),
-		new Answer("1", 1),
-		new Answer("2", 0),
-		new Answer("3", 0)
+		new Answer("Громче едешь — тише будешь", 0),
+		new Answer("Тише едешь — дальше будешь", 1),
+		new Answer("Сахарные соты", 0),
+		new Answer("Игра в кальмара", 0)
 	]),
 
-	new Question("2 - 2 = ", 
+	new Question("Настоящее имя номера 001 из первого сезона", 
 	[
-		new Answer("0", 1),
-		new Answer("1", 0),
-		new Answer("2", 0),
-		new Answer("3", 0)
+		new Answer("О Иль Нам", 1),
+		new Answer("О Илья", 0),
+		new Answer("Хван Ин Хо", 0),
+		new Answer("Иван Хо Ин", 0)
 	]),
 
-	new Question("2 + 2 * 2 = ", 
+	new Question("Где проводят игры?", 
 	[
-		new Answer("4", 0),
-		new Answer("6", 1),
-		new Answer("8", 0),
-		new Answer("10", 0)
+		new Answer("Дома у главного героя", 0),
+		new Answer("На острове", 1),
+		new Answer("В лесу", 0),
+		new Answer("В тайной пещере", 0)
 	]),
 
-	new Question("2 + 2 / 2 = ", 
+	new Question("Сколько всего игроков участвуют в испытаниях?", 
 	[
-		new Answer("1", 0),
-		new Answer("2", 0),
-		new Answer("3", 1),
-		new Answer("4", 0)
+		new Answer("654", 0),
+		new Answer("465", 0),
+		new Answer("456", 1),
+		new Answer("100", 0)
 	])
 ];
 
